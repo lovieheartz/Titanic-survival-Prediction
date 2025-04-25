@@ -81,3 +81,7 @@ If a passenger with these details is predicted to survive, the message displayed
 If the prediction is that they did not survive:
 
 -<h3>Prediction: Did not Survive ❌</h3>
+
+
+
+I also attached screenshot of input and output , it will surely help you out
