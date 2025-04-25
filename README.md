@@ -22,7 +22,7 @@ This project leverages the power of machine learning to predict the survival of 
 
 ## How to Run
 
-### 1. Install dependencies
+1. Install dependencies
 First, ensure you have Python 3.6 or higher installed. Then, create a virtual environment and install the required dependencies:
 
 ```bash
@@ -33,7 +33,7 @@ python train_model.py
 python run.py
 
 
-#Input Data & Get Predictions
+2.Input Data & Get Predictions
 Once the app is running, you can:
 
 Enter the passenger information (Pclass, Sex, Age, etc.) into the form.
@@ -42,7 +42,8 @@ Click Predict to get the survival prediction result.
 
 The result will be displayed as either "Survived ✅" or "Did not Survive ❌" based on the prediction made by the model.
 
--File Descriptions
+
+#File Descriptions
 
 --train_model.py: Script for training the logistic regression model and saving it for later use.
 
