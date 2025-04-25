@@ -84,4 +84,4 @@ If the prediction is that they did not survive:
 
 
 
-I also attached screenshot of input and output , it will surely help you out
+I also attached screenshot of input and output , it will surely help you.
