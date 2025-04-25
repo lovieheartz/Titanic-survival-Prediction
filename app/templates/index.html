@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Survival Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Titanic Survival Prediction</h2>
+    <form method="POST">
+        <label>Pclass:</label>
+        <input type="number" name="Pclass" required><br>
+
+        <label>Sex:</label>
+        <select name="Sex" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+
+        <label>Age:</label>
+        <input type="number" name="Age" required><br>
+
+        <label>SibSp:</label>
+        <input type="number" name="SibSp" required><br>
+
+        <label>Parch:</label>
+        <input type="number" name="Parch" required><br>
+
+        <label>Fare:</label>
+        <input type="number" name="Fare" required><br>
+
+        <label>Embarked:</label>
+        <select name="Embarked" required>
+            <option value="S">S</option>
+            <option value="C">C</option>
+            <option value="Q">Q</option>
+        </select><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction is not none %}
+        <h3>Prediction: {{ 'Survived ✅' if prediction == 1 else 'Did not Survive ❌' }}</h3>
+    {% endif %}
+</body>
+</html>
